@@ -12,60 +12,55 @@
       <title>Or Grunebaum - Build a Portfolio Site</title>
       <!-- insert bootstrap and our style sheet into our webpage -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link href="css/main.css" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="css/main.css">
       <!-- set font -->
-      <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700' rel='stylesheet' type='text/css'>   </head>
+      <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700' rel='stylesheet' type='text/css'>
+   </head>
    <body>
       <!-- set bootstrap container --> 
       <div class="container">
       <!-- set header --> 
-      <div class="row">
-         <!-- set logo --> 
-         <div class="col-md-6"><img src="img/logo.png" height="120px" width="200px" alt="Logo"></div>
-         <div class="col-md-6 text-right text-uppercase">
-            <!-- set name and description --> 
-            <h1 class="name">Or Grunebaum</h1>
-            <h4 class="description">Front-end Ninja</h4>
-         </div>
-      </div>
-       <div class="row">
-         <div class="col-md-12">
-             <!-- set bar --> 
-             <hr>
-         </div>
-      </div>
-      <div class="row">
-         <div class="col-md-12">
+        <header class="row">
+            <!-- set logo --> 
+            <div class="col-md-6">
+                <img src="img/logo.png" height="120" width="200" alt="Logo">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <!-- set name and description --> 
+                <h1 class="name">Or Grunebaum</h1>
+                <h4 class="description">Front-end Ninja</h4>
+            </div>
+        </header>
+        <div class="row col-md-12">
+        <!-- set bar --> 
+            <hr>
+        </div>
+        <nav class="row col-md-12">
             <!-- set main image --> 
             <img src="img/planet-big.png" class="img-responsive" alt="Big Planet image">
-         </div>
-      </div>
-      <div class="row">
-         <div class="col-md-12 featured_work_color featured_work_font_size">
-             <!-- set featured work --> 
+        </nav>
+        <section class="row col-md-12 featured_work_color featured_work_font_size">
+            <!-- set featured work --> 
             <h2>Featured Work</h2>
-         </div>
-      </div>
-      <div>
-         <div class="row text-center image_description_color featured_work_color">
-          <!-- show projects --> 
-         <div class="col-md-4">
-            <img src="img/IMG_1121.jpg" class="img-responsive" alt="Image 1">
-            <h3 class="text-uppercase">First App</h3>
-            <p>http://github.com</p>
-         </div>
-         <div class="col-md-4">
-            <img src="img/IMG_1145.jpg" class="img-responsive" alt="Image 2">
-            <h3 class="text-uppercase">Second App</h3>
-            <p>http://github.com</p>
-         </div>
-         <div class="col-md-4">
-            <img src="img/IMG_1146.jpg" class="img-responsive" alt="Image 3">
-            <h3 class="text-uppercase">Third App</h3>
-            <p>http://github.com</p>
-         </div>
-      </div>
-      </div>
+        </section>
+        <article class="row text-center image_description_color featured_work_color">
+            <!-- show projects --> 
+            <div class="col-md-4">
+                <img src="img/IMG_1121.jpg" class="img-responsive" alt="Image 1">
+                <h3 class="text-uppercase">First App</h3>
+                <p>http://github.com</p>
+            </div>
+            <div class="col-md-4">
+                <img src="img/IMG_1145.jpg" class="img-responsive" alt="Image 2">
+                <h3 class="text-uppercase">Second App</h3>
+                <p>http://github.com</p>
+            </div>
+            <div class="col-md-4">
+                <img src="img/IMG_1146.jpg" class="img-responsive" alt="Image 3">
+                <h3 class="text-uppercase">Third App</h3>
+                <p>http://github.com</p>
+            </div>
+        </article>
       </div>
    </body>
 </html>
