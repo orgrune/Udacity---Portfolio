@@ -1,0 +1,45 @@
+container{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.name{
+    font-size: 50px; 
+    font-weight: 300;
+}
+
+
+.description{
+    font-size: 25px;
+    font-weight: 100;
+}
+
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+
+hr{
+    border: none;
+    height: 5px;
+    background-color: #7d97ad;
+}
+
+
+.featured_work_color{
+    color: #2d3c49;
+}
+
+
+.featured_work_font_size{
+    font-size: 40px;
+    color: #7d97ad;
+    font-weight: 400;
+}
+
+
+image_description_color{
+    color: #2d3c49;
+}
